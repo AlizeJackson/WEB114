@@ -1,0 +1,50 @@
+<!--Alize Jackson 10/23/2025-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Week 3 Project</title>
+    </head> 
+    <body style="background-color: lavender; color:black;">
+    <h1>Week 3 Project</h1>
+    <h3><b>Questions</b></h3>
+        <ol>
+            <li>Name a situation where you would need to create an "if" statement.</li>
+            <li>When comparing values,  in what data type is the result stored?</li>
+        </ol>
+    <h3>Answers</h3>
+        <ol>
+            <li>A situation where you would need to create an "if" statement would be when you are trying to filter out wrong
+            and incorrect infomation. For example, you create a prompt that is looking for a certain, exact answer and you can 
+            set it to show that the information you inputted was incorrect and to fix it.</li>
+            <li>When comparing values, the date type the result is stored is the boolean value, showing whether it's true
+            or false.</li>
+        </ol>
+    <h1>Prompt and Confirm windows already happened with the exercises.</h1>
+    
+    <script>
+        //*Spending Prompt*//
+        let total = parseInt(prompt ("How much did you spend?"));
+        //*Confirm Total*//
+        let confirmed = confirm("$" + total + " in total? Click OK to continue!");
+        
+        //*If Prompt*//
+        if (total < 50) {
+            alert("No discount. :("); 
+            //*No alert shows up for 50, since the instructions did not
+            //state this equation to be less than or equal to fifty.*//
+        }
+        if (total >= 75) {
+            alert("10% off. Not bad."); 
+            //*This equations is conflicting with the 100 since they are both
+            //greater thans. When the alert pops up after entering 200, 
+            //it shows both 10% off and 20% off.*//
+        }
+        if (total >= 100) {
+            alert("20% off. Ok, but could be better."); 
+            //*The instructions states that 100 >= 100 and will be 20% off but it's not.*//
+        }
+    </script>
+        
+    </body>
+</html>
