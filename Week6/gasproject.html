@@ -1,0 +1,54 @@
+<!--Alize Jackson 11/13/2025-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Week 6 Project</title>
+    </head>
+    <body>
+    <h2>Question</h2>
+        <ol>
+            <li>What is the purpose of a function?</li>
+        </ol>
+    <h2>Answer</h2>
+        <ol>
+            <li>Functions are the building blocks of a program and they allow code to be called many times with repetition.</li>
+        </ol>
+    <h1>Calculate your gas bills here!</h1>
+    <script>
+        let entryCount = 0;
+        let total = 0;
+        let weeklyGas = 0;
+        let userName = prompt ("Enter your name.");
+        let firstweeklyGas = prompt ("Enter your first week's gas total. Enter -1 when you are done.");
+    
+        //*Function Loop*//
+        //*I don't know what I am doing wrong with this assignment. I can't figure it out at all.*//
+        //*I couldn't figure out why the while loop wasn't working or what I was missing to make it work*//
+        //*And the return section made no sense to me on how it would work. I really didn't understand what I needed to do.*//
+        //*Sorry for an incomplete assignment but I had no idea what to do.*//
+        let gas = function calcGasAvg() {
+            let averageGas = total / entryCount;
+            while (weeklyGas !== -1) {
+                total++;
+                entryCount++;
+                let week = prompt ("Enter another week's gas total. Enter -1 when you are done.");
+            }
+            if (entryCount >0) {
+                return (averageGas);
+            }  else {
+                return (averageGas) = 0;
+            }
+            if (entryCount === 0) {
+                confirm("No gas totals were entered.");
+            } else if (entryCount === 1) {
+                confirm(`You entered ${entryCount} gas total.`);
+            } else {
+                confirm(`You entered ${entryCount} gas totals.`);
+            }
+            confirm(userName + "'s average weekly gas bill is " + gas.toFixed(2));
+        }
+       
+    </script>
+    </body>
+</html>
