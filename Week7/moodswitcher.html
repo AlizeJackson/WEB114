@@ -1,0 +1,68 @@
+<!--Alize Jackson 11/20/2025-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mood Changer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+      transition: background-color 0.5s ease, color 0.5s ease;
+      min-height: 100vh;
+    }
+    h1 { font-size: 3rem; margin-bottom: 20px; }
+    #moodButtons {
+      margin: 20px 0;
+    }
+    .mood-btn {
+      padding: 12px 20px;
+      margin: 8px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+    .mood-btn:hover { transform: scale(1.05); }
+    #moodDisplay { margin-top: 30px; font-size: 1.5rem; font-style: italic; }
+  </style>
+</head>
+<body>
+  <h1>How are you feeling?</h1>
+  <p>Click a mood to change the vibe!</p>
+
+  <!-- Button container -->
+  <div id="moodButtons">
+    <button class="mood-btn" data-mood="happy">Happy</button>
+    <button class="mood-btn" data-mood="calm">Calm</button>
+    <button class="mood-btn" data-mood="excited">Excited</button>
+    <button class="mood-btn" data-mood="chill">Chill</button>
+    <button class="mood-btn" data-mood="mysterious">Mysterious</button>
+    <button class="mood-btn" data-mood="reset">Reset</button>
+  </div>
+
+  <p id="moodDisplay">Choose a mood...</p>
+
+  <script src="mood.js"></script>
+  <br>
+  <h2>Questions</h2>
+        <ol>
+          <li>Why is the JavaScript textContent property safer than innerHTML?</li>
+          <li>If you use an HTML text box on a page and it has an attribute (for example id="text") 
+            and a corresponding DOM property (for example, const box = document.getElementById("text"). 
+            How do the two elements relate?</li>
+          <li>What would happen to the text box with id="text" if it added this line to the code above:
+            text.textContent = "Hello!"?</li>
+        </ol>
+    <h2>Answers</h2>
+        <ol>
+          <li>The textContent property is safer than innerHTML because it just sets the text and doesn't cause any new strings.</li>
+          <li>The two elements are related by the idea that they are both used to code Javascript code without physically coding and changing
+          original HTML code. Like with this project, the id was used to create a const, which was used to allow us to change the color of the
+          background and text without manually changing it here in the HTML document.</li>
+          <li>The text would change to say "Hello!" either in the console log or on the actual HTML document.</li>
+        </ol>
+</body>
+</html>
