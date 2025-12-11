@@ -1,0 +1,29 @@
+Hello! I am Alize Jackson and I chose to do the quiz show project!
+
+I ran into a lot of problems working on this project and at the end, I was not able to figure out the issues. 
+
+First issue was the images: I couldn't figure out how to get the images to chnage after clicking the submit button
+despite looking through different guides, tutorials, and even asking the professor for help. Nothing worked. So the quiz
+is stuck with the one image that worked since it was on the HTML page.
+
+Second issue was the alerts I wanted to show up after selecting the correct answer. This is what I typed but it wouldn't work.
+    if (answer == "Dr.Frankenstein's Monster") {
+      alert("Correct! Her name is Frankie Stein, the daughter of Frankenstein's monster!");
+    } else if (answer == "Vampire") {
+      alert("Correct! Her name is Draculaura, the adopted daughter of Dracula!");
+    } else if (answer == "Werewolf") {
+      alert("Correct! Her name is Clawdeen Wolf, the daughter of the Werewolf!");
+    } else if (answer == "Sea monster") {
+      alert("Correct! Her name is Lagoona Blue, the daughter of the sea monster and a sea nymph!");
+    } else if (answer == "Mummy") {
+      alert("Correct! Her name is Cleo De Nile, the royal daughter of the Mummy!");
+    } else {
+      alert("Incorrect!");
+    }
+    
+Third issue was the score keeping. It worked at first, but for some reason, it stopped keeping score and the score always
+remains at 0/5 at the end of the quiz.
+
+I checked my error logs and nothing was popping up to show if I inputted something wrong or not.
+I really did try on this project and I was actually looking forward to completing this in a way that satisfied me but
+everything I tried to fix it didn't work, so I sadly give up and just turned in what I did have that worked.

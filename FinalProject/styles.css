@@ -1,0 +1,100 @@
+/*Alize Jackson WEB 118 Final Project CSS*/
+
+/*Style for BODY*/
+body {
+    font-family: "DynaPuff";
+    background-color: #000000;
+    color: #ff029b;
+    align-content: center;
+    padding: 50px;
+}
+h1 {
+    font-size: 45px;
+    text-align: center;
+    color: #ff029b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 25px;
+    text-align: center;
+    color: #ff029b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    text-align: center;
+    color: #ff029b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a {
+    color: #fff;
+}
+a:hover {
+    color: #882693;
+}
+a:active {
+    color: #ff0000;
+}
+
+/*Style for QUIZ*/
+div {
+    font-family: "DynaPuff";
+    color: #000;
+}
+#quiz {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #00adef;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #882693;
+}
+#question {
+    margin-bottom: 20px;
+    align-content: center;
+}
+#options {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+#submit:hover {
+    background-color: #882693;
+    color: #fff;
+}
+
+button {
+    background-color: gray;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px
+}
+#questionImage {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
